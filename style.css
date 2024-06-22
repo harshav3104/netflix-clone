@@ -393,3 +393,51 @@ nav button
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
+footer {
+    color: gray;
+    width: 80vw;
+    margin: 50px auto;
+    height: 40vh;
+}
+.questions>a{
+    color: gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35px 35px 35px 35px;
+}
+.content>a
+{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+}
+.footerContent
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.btn-lang2
+{
+    background-color: rgba(248, 243, 243, 0.068);
+    border: 1px solid gray;
+    color: white;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 120px;
+    
+}
+.netflixindia
+{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 25px;
+}
